@@ -1,0 +1,66 @@
+@font-face{
+    font-family: 'RockinRecord';
+        src: url('../fonts/RockinRecord/19755.ttf');
+        url('../fonts/19755.ttf') format('truetype'),
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+header {
+    margin: 0;
+    background-image: url(../img/clash0.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color:  rgb(250, 52, 52);;
+    padding-bottom: 100%;
+    background-position:center top;
+    
+}
+
+body {
+    background-color: rgb(250, 52, 52);
+    font-family: 'RockinRecord', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+h2 {
+    margin-top:30px;
+    font-family: 'RockinRecord', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: larger;
+}
+
+div {
+    margin-top:30px;
+}
+img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 10 auto;
+}
+
+p {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.frog {
+    display: inline-block;
+}
+
+.frog img {
+       width: 200px;
+    height: auto;
+}
+
+.frog figcaption {
+    text-align: center;
+}
+.vidos {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    
+}
